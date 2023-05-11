@@ -1,8 +1,8 @@
 import * as React from "react"
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Card from "../components/Card"
+import Card from "../components/card"
 
 import * as styles from "../components/index.module.scss"
 
