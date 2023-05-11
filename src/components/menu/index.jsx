@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 const Menu = () => {
     return (
         <nav>
-            <Link to="/" activeStyle={{ color: "red" }} activeClassName="active">Home</Link>
+            <Link to="/" activeStyle={{ color: "#4D4D4D" }} activeClassName="active">Home</Link>
             &nbsp; | &nbsp;
-            <Link to="/contact" activeStyle={{ color: "red" }} activeClassName="active">Contact</Link>
+            <Link to="/contact" activeStyle={{ color: "#4D4D4D" }} activeClassName="active">Contact</Link>
             &nbsp; | &nbsp;
-            <Link to="/about" activeStyle={{ color: "red" }} activeClassName="active">About</Link>
+            <Link to="/about" activeStyle={{ color: "#4D4D4D" }} activeClassName="active">About</Link>
         </nav>
     )
 }
