@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Menu from "../Menu"
 
 
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   return (
