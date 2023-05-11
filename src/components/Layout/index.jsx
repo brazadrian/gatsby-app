@@ -1,16 +1,26 @@
-import * as React from "react"
+import React from "react"
+import PropTypes from "prop-types"
+
+import Menu from "../Menu"
+
 
 import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <main>{children}</main>
+      <main>
+          <Menu />
+        {children}
+        
+        </main>
+      Footer
     </>
   )
-  Layout.propTypes = {
-    children: PropTypes.node.isRequired,
-  }
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
