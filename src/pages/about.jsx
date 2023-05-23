@@ -23,7 +23,7 @@ const About = () => {
                         <CardV2
                             titleCard="Primeiro cartão"
                             textCard="Texto do primeiro cartão"
-                            colorButton="primary"
+                            colorButton="gatsby"
                         />
                     </div>
                     <div className="col-4">
