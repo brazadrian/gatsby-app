@@ -1,18 +1,13 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `@capivair`,
+    title: `Capivair`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl nec nisl.`,
+    siteUrl: `https://capivair.netlify.app/`,
+    copyright: `© 2023 Capivair - Todos os direitos reservados`,
   },
   plugins: [
     `gatsby-plugin-sass`,

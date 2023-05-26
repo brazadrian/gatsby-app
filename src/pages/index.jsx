@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,10 +9,14 @@ import * as styles from "../components/index.module.scss"
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
+    <div className="container">
+      <div className="row">
+        <div className="cold-12 py-4">
+          <div className={styles.textCenter}>
+            <h1> Welcome to <b>Gatsby!</b> </h1>
+          </div>
+        </div>
+      </div>
     </div>
     <Card />
   </Layout>
