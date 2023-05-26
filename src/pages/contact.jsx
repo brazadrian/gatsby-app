@@ -11,10 +11,11 @@ const Contact = () => {
             <h2>Contact 2</h2>
             <p>Send us a message!</p>
             <p>{text}</p>
-
-            <p>
-                Link externo (do google): <a href="https://www.google.com/" blank>Clique aqui</a>
-            </p>
+            <React.StrictMode>
+                <p>
+                    Link externo (do google): <a href="https://www.google.com/" target="_blank" rel="noreferrer noopener">Clique aqui</a>
+                </p>
+            </React.StrictMode>
         </Layout>
     )
 }

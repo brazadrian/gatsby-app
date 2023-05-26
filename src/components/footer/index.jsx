@@ -21,7 +21,7 @@ const Footer = () => {
             <footer className="bg-light text-center text-lg-start">
                 <div className="text-center p-3">
                     <p>
-                        <a href={data.site.siteMetadata.siteUrl} rel="noopener">
+                        <a href={data.site.siteMetadata.siteUrl} target="_blank" rel="noreferrer noopener">
                             {data.site.siteMetadata.copyright}
                         </a>
                     </p>
