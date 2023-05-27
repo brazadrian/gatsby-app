@@ -7,9 +7,9 @@ const Footer = () => {
         site: {
             siteMetadata: {
                 copyright,
-                description,
                 siteUrl,
-                title,
+                /* description,
+                title, */
             }
         }
     } = useStaticQuery(graphql`
