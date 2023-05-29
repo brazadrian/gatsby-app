@@ -77,8 +77,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Capivair_n`,
+        name: `Capivair`,
         short_name: `Capivair_sn`,
+        description: `O Capivair é um software de monitoramento de qualidade do ar. Ele é capaz de coletar dados de sensores de qualidade do ar e apresentá-los de forma intuitiva e acessível.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#D9D9D9`,
