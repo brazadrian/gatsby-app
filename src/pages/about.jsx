@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <Layout>
-      <Seo title="About" lang="uk" />
+      <Seo title="About"/>
       <h1>{text}</h1>
       <h2>About 2</h2>
       <p>Send us a message!</p>
