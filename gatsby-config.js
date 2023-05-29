@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     author: `@capivair`,
     title: `Capivair`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl nec nisl.`,
+    description: `O Capivair é um software de monitoramento de qualidade do ar. Ele é capaz de coletar dados de sensores de qualidade do ar e apresentá-los de forma intuitiva e acessível.`,
     siteUrl: `https://capivair.netlify.app/`,
     copyright: `© 2023 Capivair - Todos os direitos reservados`,
     contributors: [
