@@ -6687,7 +6687,7 @@ gatsby-plugin-image@^3.9.0:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.8.1"
 
-gatsby-plugin-manifest@^5.9.0:
+gatsby-plugin-manifest@^5.10.0:
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-5.10.0.tgz#27e479ac82b5c776e849155c0d62cc23d6947b5b"
   integrity sha512-y3TUARyNaK29oD/8ZJOVvLVRvSvfKNjLHmNc0D6KPJRQld7T+ZKCZh4ylwN+Hor8vHnXKHyVoBZd+BIEjTBVAg==
