@@ -6,14 +6,17 @@ import Card from "../components/card"
 
 import * as styles from "../components/index.module.scss"
 
-
 const IndexPage = () => (
   <Layout>
+    <Seo title="Home" description="Welcome!!!" />
     <div className="container">
       <div className="row">
         <div className="cold-12 py-4">
           <div className={styles.textCenter}>
-            <h1> Welcome to <b>Gatsby!</b> </h1>
+            <h1>
+              {" "}
+              Welcome to <b>Gatsby!</b>{" "}
+            </h1>
           </div>
         </div>
       </div>
@@ -22,6 +25,6 @@ const IndexPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Home" />
+/* export const Head = () => <Seo title="Home" description="Welcome!!!" /> */
 
 export default IndexPage

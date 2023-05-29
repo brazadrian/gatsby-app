@@ -8,10 +8,61 @@ module.exports = {
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl nec nisl.`,
     siteUrl: `https://capivair.netlify.app/`,
     copyright: `© 2023 Capivair - Todos os direitos reservados`,
+    contributors: [
+      {
+        name: "Ayrton Santos Maia Medeiros",
+        email: "ayrton.maia0@gmail.com",
+        github: "https://github.com/AyrtonMaia0",
+        linkedin: "https://www.linkedin.com/in/ayrton-maia-404489228/",
+      },
+      {
+        name: "Erika Vilas Boas dos Santos",
+        email: "erikavbscontato@gmail.com",
+        github: "https://github.com/ErikavbSantos",
+        linkedin: "https://www.linkedin.com/in/erikavbsantos/",
+      },
+      {
+        name: "Everton Gabriel Silva dos Anjos",
+        email: "evertongabrielljs@gmail.com",
+        github: "https://github.com/Spatialcaver",
+        linkedin: "https://www.linkedin.com/in/everton-gabriel-088474176/",
+      },
+      {
+        name: "Gilmar Adrian de Souza Braz",
+        email: "gilmaradrian127@gmail.com",
+        github: "https://github.com/brazadrian",
+        linkedin: "https://www.linkedin.com/in/brazadrian/",
+      },
+      {
+        name: "Karolayne da Silva Santos",
+        email: "karolaynessantoscontato@gmail.com",
+        github: "https://github.com/Karolayne-silva",
+        linkedin: "https://www.linkedin.com/in/karolayne-silva-a0a49a1a1/",
+      },
+      {
+        name: "Lívia Vitória dos Santos Gomes",
+        email: "livia.vitoria.santos2016@gmail.com",
+        github: "https://github.com/ViviSGG",
+        linkedin: "https://www.linkedin.com/in/lívia-vitória-6a5771230/",
+      },
+      {
+        name: "Maiara Evelyn Meneses Pereira",
+        email: "maiaraevelyn27@hotmail.com",
+        github: "https://github.com/wildestmaii",
+        linkedin: "https://www.linkedin.com/in/wildestmaii/",
+      },
+      {
+        name: "Quézia Cassiano de Souza Silva",
+        email: "quezia.c.s.silva@gmail.com",
+        github: "https://github.com/quezia-cassiano",
+        linkedin: "https://www.linkedin.com/in/queziacssilva/",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
