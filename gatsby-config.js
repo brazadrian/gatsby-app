@@ -77,14 +77,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Capivair - Software de monitoramento de qualidade do ar.`,
-        short_name: `Capivair`,
+        name: `Capivair_n`,
+        short_name: `Capivair_sn`,
         start_url: `/`,
-        background_color: `#D9D9D9`,
+        background_color: `#ffffff`,
+        theme_color: `#D9D9D9`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `standalone`,
+        display: `fullscreen`,
         icon: `src/images/capivair-icon.png`, // This path is relative to the root of the site.
       },
     },
@@ -94,5 +95,6 @@ module.exports = {
         endpoints: ["https://back-people.onrender.com/sensor"],
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }
