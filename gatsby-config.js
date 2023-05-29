@@ -77,15 +77,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Capivair - Software de monitoramento de qualidade do ar.`,
+        short_name: `Capivair`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#D9D9D9`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        display: `standalone`,
+        icon: `src/images/capivair-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
