@@ -16,6 +16,7 @@ Projeto voltado para a disciplina de Mobile da Faculdade SENAC/PE, a qual dever�
 - JavaScript
 - PWA
 - Gatsby Cloud
+- Render
 - GraphQL
 - API Rest
 
@@ -35,3 +36,6 @@ Projeto voltado para a disciplina de Mobile da Faculdade SENAC/PE, a qual dever�
     O site estará rodando no seguinte endereço: `http://localhost:8000`!
 
     O GraphQL estará disponível no seguinte endereço: `http://localhost:8000/___graphql`
+
+## Cross-platform
+O desafio era trabalhar com diferentes plataformas, cada uma armazenando o BackEnd, o FrontEnd e o Banco de dados. Segue o repositório que cria o Banco de dados e é o código-fonte do BackEnd: [Back people](https://github.com/brazadrian/back_people).
