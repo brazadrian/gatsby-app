@@ -25,12 +25,12 @@ const Menu = () => {
 
         <li className="nav-item">
           <Link
-            to="/hotpots"
+            to="/hotspots"
             activeStyle={{ color: "blue" }}
             className="nav-link"
             activeClassName="active"
           >
-            Hotpots
+            Hotspots
           </Link>
         </li>
       </ul>
