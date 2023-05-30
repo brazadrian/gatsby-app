@@ -26,7 +26,6 @@ const Seo = ({ description, lang, meta, title, children }) => {
         lang,
       }}
       title={`${title} | ${site.siteMetadata.title}`}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -85,7 +84,7 @@ const Seo = ({ description, lang, meta, title, children }) => {
 Seo.defaultProps = {
   lang: `pt-br`,
   meta: [],
-  description: ``,
+  description: `Página do site da Capivair.`,
 }
 
 Seo.propTypes = {

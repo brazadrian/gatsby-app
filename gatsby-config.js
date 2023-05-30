@@ -83,9 +83,6 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#D9D9D9`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `fullscreen`,
         icon: `src/images/capivair-icon.png`, // This path is relative to the root of the site.
         icon_options: {
@@ -100,5 +97,25 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [
+          `https://fonts.googleapis.com`,
+          `https://fonts.gstatic.com`,
+        ],
+        web: [
+          {
+            name: `Open Sans`,
+            file: `https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap`,
+          },
+          {
+            name: `Roboto`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap`,
+          },
+        ],
+      },
+    },
   ],
 }

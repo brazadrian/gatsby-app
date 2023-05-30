@@ -7,6 +7,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "gatsby": "^5.3.3",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-offline": "^6.10.0",
@@ -47,49 +48,49 @@
     {
       "name": "Ayrton Santos Maia Medeiros",
       "email": "ayrton.maia0@gmail.com",
-      "github":"https://github.com/AyrtonMaia0",
+      "github": "https://github.com/AyrtonMaia0",
       "linkedin": "https://www.linkedin.com/in/ayrton-maia-404489228/"
     },
     {
       "name": "Erika Vilas Boas dos Santos",
       "email": "erikavbscontato@gmail.com",
-      "github":"https://github.com/ErikavbSantos",
+      "github": "https://github.com/ErikavbSantos",
       "linkedin": "https://www.linkedin.com/in/erikavbsantos/"
     },
     {
       "name": "Everton Gabriel Silva dos Anjos",
       "email": "evertongabrielljs@gmail.com",
-      "github":"https://github.com/Spatialcaver",
+      "github": "https://github.com/Spatialcaver",
       "linkedin": "https://www.linkedin.com/in/everton-gabriel-088474176/"
     },
     {
       "name": "Gilmar Adrian de Souza Braz",
       "email": "gilmaradrian127@gmail.com",
-      "github":"https://github.com/brazadrian",
+      "github": "https://github.com/brazadrian",
       "linkedin": "https://www.linkedin.com/in/brazadrian/"
     },
     {
       "name": "Karolayne da Silva Santos",
       "email": "karolaynessantoscontato@gmail.com",
-      "github":"https://github.com/Karolayne-silva",
+      "github": "https://github.com/Karolayne-silva",
       "linkedin": "https://www.linkedin.com/in/karolayne-silva-a0a49a1a1/"
     },
     {
       "name": "Lívia Vitória dos Santos Gomes",
       "email": "livia.vitoria.santos2016@gmail.com",
-      "github":"https://github.com/ViviSGG",
+      "github": "https://github.com/ViviSGG",
       "linkedin": "https://www.linkedin.com/in/l%C3%ADvia-vit%C3%B3ria-6a5771230/"
     },
     {
       "name": "Maiara Evelyn Meneses Pereira",
       "email": "maiaraevelyn27@hotmail.com",
-      "github":"https://github.com/wildestmaii",
+      "github": "https://github.com/wildestmaii",
       "linkedin": "https://www.linkedin.com/in/wildestmaii/"
     },
     {
       "name": "Quézia Cassiano de Souza Silva",
       "email": "quezia.c.s.silva@gmail.com",
-      "github":"https://github.com/quezia-cassiano",
+      "github": "https://github.com/quezia-cassiano",
       "linkedin": "https://www.linkedin.com/in/queziacssilva/"
     }
   ],
