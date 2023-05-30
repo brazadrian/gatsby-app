@@ -6,22 +6,27 @@ const Menu = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <ul className="navbar-nav mr-auto">
-        <a href="/">
-          <StaticImage
-            src="../../images/capivair-icon.png"
-            alt="Capivair Icon"
-            placeholder="blurred"
-            layout="fixed"
-            height={34.38}
-            /* borda */
-            style={{ margin: "30%" }}
-          />
-        </a>
-        <h3 className="text-primary">
-          <a className="navbar-brand mx-4 mb-3" href="/">
-            Capivair
+        <li>
+          <a href="/">
+            <StaticImage
+              src="../../images/capivair-icon.png"
+              alt="Capivair Icon"
+              placeholder="blurred"
+              layout="fixed"
+              height={34.38}
+              /* borda */
+              style={{ margin: "30%" }}
+            />
           </a>
-        </h3>
+        </li>
+
+        <li>
+          <h3 className="text-primary">
+            <a className="navbar-brand mx-4 mb-3" href="/">
+              Capivair
+            </a>
+          </h3>
+        </li>
 
         <li className="nav-item">
           <Link

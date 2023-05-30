@@ -72,10 +72,10 @@ const Seo = ({ description, lang, meta, title, children }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-        {
+        /* {
           name: `robots`,
-          content: `noindex,nofollow`,
-        },
+          content: `noindex, nofollow`,
+        }, */
       ].concat(meta)}
     />
   )

@@ -27,7 +27,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Monitoramento" />
+      <Seo title="Monitoramento" description="Monitoramento de sensores" />
       <div>
         <h1>Monitoramento</h1>
         <h2>Sensores</h2>
