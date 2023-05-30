@@ -49,7 +49,7 @@ const IndexPage = () => {
                 sensor.descricao +
                 '". Localizado no(a) '}{" "}
               <b>{sensor.area}</b>{" "}
-              {"( X: " + sensor.x + ", Y: " + sensor.y + ")"}
+              {"(X: " + sensor.x + ", Y: " + sensor.y + ")"}
               {"."}
             </p>
             <hr />

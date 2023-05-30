@@ -9,7 +9,7 @@ const Menu = () => {
         <li>
           <a href="/">
             <StaticImage
-              src="../../images/capivair-icon.png"
+              src="../../images/capivair-icon-sf.png"
               alt="Capivair Icon"
               placeholder="blurred"
               layout="fixed"
@@ -19,26 +19,21 @@ const Menu = () => {
             />
           </a>
         </li>
-
-        <li>
-          <h3 className="text-primary">
-            <a className="navbar-brand mx-4 mb-3" href="/">
-              Capivair
-            </a>
-          </h3>
-        </li>
-
-        <li className="nav-item">
-          <Link
-            to="/hotspots"
-            activeStyle={{ color: "blue" }}
-            className="nav-link"
-            activeClassName="active"
-          >
-            Hotspots
-          </Link>
-        </li>
       </ul>
+      <h3 className="text-primary">
+        <a className="navbar-brand mx-4 mb-3" href="/">
+          Capivair
+        </a>
+      </h3>
+
+      <Link
+        to="/hotspots"
+        activeStyle={{ color: "blue" }}
+        className="nav-link"
+        activeClassName="active"
+      >
+        Hotspots
+      </Link>
     </nav>
   )
 }

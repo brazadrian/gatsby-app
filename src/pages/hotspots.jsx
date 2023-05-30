@@ -8,10 +8,10 @@ import Seo from "../components/seo"
 const Hotspots = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "capivair-icon.png" }) {
+      file(relativePath: { eq: "mapa_planta_baixa.png" }) {
         childImageSharp {
           gatsbyImageData(
-            width: 100
+            width: 150
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
           )
@@ -34,9 +34,7 @@ const Hotspots = () => {
                 alt="Capivair Icon"
                 placeholder="blurred"
                 layout="fixed"
-                height={34.38}
-                /* borda */
-                style={{ margin: "30%" }}
+                style={{ margin: "1%" }}
               />
             </p>
           </div>

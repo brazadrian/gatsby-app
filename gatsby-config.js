@@ -84,7 +84,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#D9D9D9`,
         display: `fullscreen`,
-        icon: `src/images/capivair-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/capivair-icon-cf.png`, // This path is relative to the root of the site.
         icon_options: {
           purpose: `any maskable`,
         },
