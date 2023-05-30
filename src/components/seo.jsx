@@ -33,6 +33,11 @@ const Seo = ({ description, lang, meta, title, children }) => {
           content: metaDescription,
         },
         {
+          rel: `shortcut icon`,
+          href: `https://capivair.netlify.app/img/logo_capivara2.png`,
+          type: `image/x-icon`,
+        },
+        {
           property: `og:title`,
           ontent: title,
         },
@@ -67,6 +72,10 @@ const Seo = ({ description, lang, meta, title, children }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `robots`,
+          content: `noindex,nofollow`,
         },
       ].concat(meta)}
     />

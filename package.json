@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "capivair",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Capivair é um projeto de monitoramento de poluição do ar, que tem como objetivo principal a criação de um sistema de monitoramento de poluição do ar, que seja de baixo custo e que possa ser utilizado em qualquer lugar, principalmente em locais onde não há monitoramento de poluição do ar.",
+  "version": "2.0.0",
+  "author": "Capivair Group <capivara.do.senas@gmail.com>",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "gatsby": "^5.3.3",
@@ -29,7 +29,69 @@
     "prettier": "^2.8.8"
   },
   "keywords": [
-    "gatsby"
+    "iot",
+    "data",
+    "pwa",
+    "monitoring",
+    "dashboard",
+    "data-visualization",
+    "pollution",
+    "industrial",
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "contributors": [
+    {
+      "name": "Ayrton Santos Maia Medeiros",
+      "email": "ayrton.maia0@gmail.com",
+      "github":"https://github.com/AyrtonMaia0",
+      "linkedin": "https://www.linkedin.com/in/ayrton-maia-404489228/"
+    },
+    {
+      "name": "Erika Vilas Boas dos Santos",
+      "email": "erikavbscontato@gmail.com",
+      "github":"https://github.com/ErikavbSantos",
+      "linkedin": "https://www.linkedin.com/in/erikavbsantos/"
+    },
+    {
+      "name": "Everton Gabriel Silva dos Anjos",
+      "email": "evertongabrielljs@gmail.com",
+      "github":"https://github.com/Spatialcaver",
+      "linkedin": "https://www.linkedin.com/in/everton-gabriel-088474176/"
+    },
+    {
+      "name": "Gilmar Adrian de Souza Braz",
+      "email": "gilmaradrian127@gmail.com",
+      "github":"https://github.com/brazadrian",
+      "linkedin": "https://www.linkedin.com/in/brazadrian/"
+    },
+    {
+      "name": "Karolayne da Silva Santos",
+      "email": "karolaynessantoscontato@gmail.com",
+      "github":"https://github.com/Karolayne-silva",
+      "linkedin": "https://www.linkedin.com/in/karolayne-silva-a0a49a1a1/"
+    },
+    {
+      "name": "Lívia Vitória dos Santos Gomes",
+      "email": "livia.vitoria.santos2016@gmail.com",
+      "github":"https://github.com/ViviSGG",
+      "linkedin": "https://www.linkedin.com/in/l%C3%ADvia-vit%C3%B3ria-6a5771230/"
+    },
+    {
+      "name": "Maiara Evelyn Meneses Pereira",
+      "email": "maiaraevelyn27@hotmail.com",
+      "github":"https://github.com/wildestmaii",
+      "linkedin": "https://www.linkedin.com/in/wildestmaii/"
+    },
+    {
+      "name": "Quézia Cassiano de Souza Silva",
+      "email": "quezia.c.s.silva@gmail.com",
+      "github":"https://github.com/quezia-cassiano",
+      "linkedin": "https://www.linkedin.com/in/queziacssilva/"
+    }
   ],
   "license": "0BSD",
   "scripts": {
@@ -43,10 +105,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/brazadrian/capivair"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/brazadrian/capivair/issues"
   },
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
